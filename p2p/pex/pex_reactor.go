@@ -18,7 +18,7 @@ const (
 	// PexChannel is a channel for PEX messages
 	PexChannel = byte(0x00)
 
-	minNumOutboundPeers      = 5
+	minNumOutboundPeers      = 2
 	maxPexMessageSize        = 1048576 // 1MB
 	defaultMaxMsgCountByPeer = uint16(1000)
 )
